@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  min-height: 30vh;
+  justify-content: center;
+  align-items: center;
+}
+
+header h2 {
+  padding: 2rem;
+}
+s #logo {
+  text-decoration: none;
+  color: black;
+}
+
+.search-form {
+  padding: 2rem;
+  display: flex;
+}
+
+.search-form input {
+  font-size: 2rem;
+  padding: 0.5rem;
+  width: 100%;
+  border: none;
+  border: 2px solid rgb(76, 62, 126);
+  outline: none;
+}
+
+.search-form button {
+  border: none;
+  font-size: 1rem;
+  padding: 0.5rem;
+  background: rgb(76, 62, 126);
+  color: white;
+}
